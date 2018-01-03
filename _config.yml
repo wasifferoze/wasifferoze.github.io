@@ -55,8 +55,12 @@ type-speed: 15
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
+  - text: "Be curious, crazy and mad"
+  - text: "All of us are imperfect and we need to keep questioning ourselves."
+  - text: "Learn, come back Bigger, Better and Stronger."
+  - text: "Youth is not a time of life, it is a state of mind."
   - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "You always have a choice believe in yourself"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -100,31 +104,6 @@ icon-72p: "/img/web-app/icon-72p.png"
 icon-96p: "/img/web-app/icon-96p.png"
 icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
-
-########
-# Research #
-########
-
-enable-gesture-navigation: True
-
-post-preview-words: 96
-
-paginate: 5
-
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
-
-disqus-shortname: "panossakkos"
-
-syntax-highlight: True
 
 ########
 # Blog #
@@ -222,8 +201,10 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-  Research: ''
-  CV: ''
+  Research: 'research'
+  CV: 'cv'
+  Learning Footprints: 'footprint'
+  Portfolio: 'portfolio'
   Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
