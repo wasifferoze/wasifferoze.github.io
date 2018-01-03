@@ -51,7 +51,7 @@ dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
+type-speed: 15
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
@@ -100,6 +100,31 @@ icon-72p: "/img/web-app/icon-72p.png"
 icon-96p: "/img/web-app/icon-96p.png"
 icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Research #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
+
+disqus-shortname: "panossakkos"
+
+syntax-highlight: True
 
 ########
 # Blog #
@@ -172,8 +197,8 @@ social:
     url: "https://github.com/wasifferoze"
   #- title: "bitcoin"
   #  url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+  #- title: "rss"
+   # url: "/feed.xml"
 
 ############
 # 404 page #
@@ -185,9 +210,9 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-username:
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
@@ -197,6 +222,8 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
+  Research: ''
+  CV: ''
   Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
@@ -215,5 +242,4 @@ sass:
   style: compressed
 
 gems:
-  - jekyll-paginate
-  - jemoji
+
