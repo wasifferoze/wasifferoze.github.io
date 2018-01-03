@@ -201,8 +201,8 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-  Research: 'research'
-  CV: 'cv'
+  #Research: 'research'
+  #CV: 'cv'
   Learning Footprints: 'footprint'
   Portfolio: 'portfolio'
   Blog: 'latest-post'
