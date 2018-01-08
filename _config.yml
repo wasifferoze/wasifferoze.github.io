@@ -203,7 +203,7 @@ pages_list:
   About: 'about'
   Research: 'research'
   CV: 'cv'
-  Learning Footprints: 'footprint'
+  Learning Footprint: 'footprint'
   Portfolio: 'portfolio'
   Blog: 'latest-post'
   Timeline: 'timeline'
