@@ -55,12 +55,12 @@ type-speed: 15
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Be curious, crazy and mad"
+  - text: "Be curious, crazy and mad."
   - text: "All of us are imperfect and we need to keep questioning ourselves."
   - text: "Learn, come back Bigger, Better and Stronger."
   - text: "Youth is not a time of life, it is a state of mind."
   - text: "The lower you fall, the higher you'll fly."
-  - text: "You always have a choice believe in yourself"
+  - text: "You always have a choice believe in yourself."
 
 me-img: "/img/jetpacktocat.png"
 
@@ -203,7 +203,7 @@ pages_list:
   About: 'about'
   Research: 'research'
   CV: 'cv'
-  Learning Footprints: 'footprint'
+  Learning Footprint: 'footprint'
   Portfolio: 'portfolio'
   Blog: 'latest-post'
   Timeline: 'timeline'
