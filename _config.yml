@@ -201,11 +201,11 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-  Research: 'research'
-  CV: 'cv'
+  #Research: 'research'
   Learning Footprint: 'footprint'
-  Portfolio: 'portfolio'
+  Projects: 'portfolio'
   Blog: 'latest-post'
+  Resume: 'cv'
   Timeline: 'timeline'
   Contact: 'contact'
 
