@@ -184,7 +184,7 @@ social:
 ##################
 resume:
   - title: "cv"
-    url: "{{ site.url }}/download/resume_wasif.pdf"
+    url: "/download/resume_wasif.pdf"
 
 
 ############
