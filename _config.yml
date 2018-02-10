@@ -170,7 +170,7 @@ author_blurb_image: "/img/author.png"
 social:
   - title: "facebook"
     url: "https://facebook.com/wasif.feroze"
-  #- title: "twitter"
+  - title: "twitter"
    # url: "https://twitter.com/"
   - title: "github"
     url: "https://github.com/wasifferoze"
@@ -202,10 +202,10 @@ keybase-in-footer: False
 pages_list:
   About: 'about'
   #Research: 'research'
-  Learning Footprint: 'footprint'
   Projects: 'portfolio'
   Blog: 'latest-post'
-  Resume: 'cv'
+  Learning Footprint: 'footprint'
+  #Resume: 'cv'
   Timeline: 'timeline'
   Contact: 'contact'
 
