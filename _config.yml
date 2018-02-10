@@ -41,7 +41,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/bg1.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -62,7 +62,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "You always have a choice believe in yourself"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/author.jpg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -87,7 +87,7 @@ me-img: "/img/jetpacktocat.png"
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
+color-browser: "#102947"
 apple-status-bar-style: "black"
 
 ################
