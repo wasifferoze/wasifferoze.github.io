@@ -10,11 +10,12 @@ $social-color: #C2B280;
 
 // Font color
 $font-color: #fff;
+$font-color-intro: #dfdfdf;
 
 $navbar-text-shadow: true;
 $header-text-shadow: true;
 $header-background-color: $head-color;
-$intro-text-color: $font-color;
+$intro-text-color: $social-color;
 $navbar-color: $font-color;
 $navbar-lg-collapse-background-color: $header-background-color;
 $navbar-lg-background: transparent;
