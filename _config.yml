@@ -173,7 +173,7 @@ social:
   - title: "facebook"
     url: "https://facebook.com/wasif.feroze"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/b10Ch"
   #- title: "bitcoin"
   #  url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   #- title: "rss"
@@ -201,6 +201,19 @@ keybase-username:
 keybase-in-social: False
 keybase-in-footer: False
 
+##################
+# Projects List #
+##################
+project_list:
+  - title: "Project1"
+    url: "https://github.com/wasifferoze"
+  - title: "Project2"
+    url: "https://github.com/wasifferoze"
+  - title: "Project3"
+    url: "https://github.com/wasifferoze"
+  - title: "Project4"
+    url: "https://github.com/wasifferoze"
+
 ################################################################################
 
 # NB! Tread carefully if you want to change the variables below this point!
@@ -210,7 +223,7 @@ keybase-in-footer: False
 pages_list:
   About: 'about'
   #Research: 'research'
-  Projects: 'portfolio'
+  Projects: 'projects'
   Blog: 'latest-post'
   Learning Footprint: 'footprint'
   #Resume: 'cv'
