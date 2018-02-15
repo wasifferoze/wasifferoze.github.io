@@ -445,3 +445,43 @@ body {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+
+/* for project section styling */
+.card {
+  width: 100rem;
+}
+
+.card-deck {
+  margin-bottom: 1.5rem;
+}
+
+.card img {
+  margin: 0px;
+}
+
+.card .btn {
+  font-size: .75rem;
+  margin-right: .75em;
+  margin-bottom: .75em;
+}
+
+.card-title {
+  font-weight: 750;
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
+  margin-top: 0px;
+}
+
+.card-text {
+  font-size: .75rem;
+}
+
+.card-buttons {
+  padding-left: 1.25rem;
+  padding-bottom: .5rem;
+}
+
+.card-footer {
+  font-size: .75rem;
+  padding-top: .5rem;
+}
