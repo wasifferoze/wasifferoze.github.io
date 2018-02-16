@@ -445,3 +445,50 @@ body {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+
+/* style for panels in project section*/
+.panel-transparent {
+    background: transparent;
+}
+.panel-default{
+    background: transparent;
+}
+.panel-default .panel-heading{
+    background: transparent;
+}
+
+/* style for projects also*/
+
+.box {
+  background: transparent;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  min-height:340px;
+}
+
+.box:hover {
+  border:2px solid $social-color;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box .box-content p {
+  color:font-color;
+  text-transform:none;
+}
