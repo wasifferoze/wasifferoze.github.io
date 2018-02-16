@@ -7,5 +7,25 @@
     </div>
   </div>
 </section>
-
+<section>
+  <<div class="container">
+	<div class="row">
+            <div class="row">
+              {% for course in site.project_list %}
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 text-center">
+                    <div class="box-course">
+                        <div class="box-content-course">
+                            <h1 class="course-title">{{ course.title }}</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
+                            <br />
+                            <a href="ppc.html" class="btn btn-block btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+	</div>
+</div>
+</section>
 <!-- Learning footprint End -->

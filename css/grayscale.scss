@@ -492,3 +492,39 @@ body {
   color:font-color;
   text-transform:none;
 }
+
+/* style for learning Footprint also*/
+
+.box-course {
+  background: transparent;
+  transition:all 0.2s ease;
+  border:2px line #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  min-height:340px;
+}
+
+.box-course:hover {
+  border:2px solid $social-color;
+}
+
+.box-course span.course-title {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.box-course .box-content-course {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box-course .box-content-course p {
+  color:font-color;
+  text-transform:none;
+}
