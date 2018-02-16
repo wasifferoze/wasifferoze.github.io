@@ -205,8 +205,25 @@ keybase-in-footer: False
 # Projects List #
 ##################
 project_list:
-  - title: "Project1"
+  - title: "Convolutional Neural Networks"
+    description: "Convolutional Neural Networks by deeplearning.ai on Coursera. Certificate earned at Thursday, December 21, 2017 5:13 PM GMT"
+    image: "/img/certificate/cnn.png"
+    url: "https://www.coursera.org/account/accomplishments/verify/MKPQWTR3E82Z"
+  - title: "Project2"
     url: "https://github.com/wasifferoze"
+  - title: "Project3"
+    url: "https://github.com/wasifferoze"
+  - title: "Project4"
+    url: "https://github.com/wasifferoze"
+
+##################
+# Projects List #
+##################
+certificate_list:
+  - title: "Convolutional Neural Networks"
+    description: "Convolutional Neural Networks by deeplearning.ai on Coursera. Certificate earned at Thursday, December 21, 2017 5:13 PM GMT"
+    image: "/img/certificate/cnn.png"
+    url: "https://www.coursera.org/account/accomplishments/verify/MKPQWTR3E82Z"
   - title: "Project2"
     url: "https://github.com/wasifferoze"
   - title: "Project3"
@@ -225,7 +242,7 @@ pages_list:
   #Research: 'research'
   Projects: 'projects'
   Blog: 'latest-post'
-  Learning Footprint: 'footprint'
+  Certificates: 'footprint'
   #Resume: 'cv'
   #Timeline: 'timeline'
   Contact: 'contact'
@@ -244,4 +261,3 @@ sass:
   style: compressed
 
 gems:
-

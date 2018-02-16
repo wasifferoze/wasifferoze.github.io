@@ -498,28 +498,30 @@ body {
 .box-course {
   background: transparent;
   transition:all 0.2s ease;
-  border:2px line #dadada;
+  //border:2px solid #dadada;
   margin-top: 10px;
   box-sizing: border-box;
   border-radius: 5px;
   background-clip: padding-box;
-  padding:0 20px 20px 20px;
-  min-height:340px;
+  //padding:0 20px 20px 20px;
+  //min-width: 400px;
+  //min-height:340px;
 }
 
 .box-course:hover {
   border:2px solid $social-color;
 }
 
-.box-course span.course-title {
+.box-course .box-content-course .tag-title {
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 300;
-    text-transform: lowercase;
+    text-transform: capitalize;
+
 }
 
 .box-course .box-content-course {
-  padding: 16px;
+  padding: 1px;
   border-radius: 0 0 2px 2px;
   background-clip: padding-box;
   box-sizing: border-box;
@@ -527,4 +529,44 @@ body {
 .box-course .box-content-course p {
   color:font-color;
   text-transform:none;
+}
+//for image hover effect
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box-course .box-content-course:hover .image {
+  opacity: 0.3;
+}
+
+.box-course .box-content-course:hover .middle {
+  opacity: 1;
+}
+
+/*.text {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}*/
+.btn-custom {
+    border: 1px solid $social-color;
+    color: $font-color;
+    background-color: $social-color;
 }
