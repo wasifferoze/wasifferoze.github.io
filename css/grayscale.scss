@@ -559,14 +559,50 @@ body {
   opacity: 1;
 }
 
-/*.text {
-  background-color: transparent;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}*/
 .btn-custom {
     border: 1px solid $social-color;
     color: $font-color;
     background-color: $social-color;
+}
+
+//for card in projects section
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: justify;
+}
+
+.card .title {
+    color: $font-color;
+    font-size: 20px;
+    padding: 15px;
+}
+.card .body  {
+  font-size: 16px;
+  padding: 15px;
+  padding-top: 0px;
+}
+.card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    font-size: 18px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
 }
