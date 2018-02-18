@@ -446,7 +446,7 @@ body {
   border: 1px solid $primary-color !important;
 }
 
-/* style for panels in project section*/
+/* style for panels in project section
 .panel-transparent {
     background: transparent;
 }
@@ -455,9 +455,9 @@ body {
 }
 .panel-default .panel-heading{
     background: transparent;
-}
+} */
 
-/* style for projects also*/
+/* style for projects also
 
 .box {
   background: transparent;
@@ -491,25 +491,32 @@ body {
 .box .box-content p {
   color:font-color;
   text-transform:none;
-}
+} */
 
 /* style for learning Footprint also*/
 
 .box-course {
-  background: transparent;
+  //background: transparent;
   transition:all 0.2s ease;
-  //border:2px solid #dadada;
+  border-top: 2px solid grey;
+  max-width: auto;
+  height: auto;
   margin-top: 10px;
   box-sizing: border-box;
   border-radius: 5px;
   background-clip: padding-box;
-  //padding:0 20px 20px 20px;
+  //margin: 0 auto;
   //min-width: 400px;
   //min-height:340px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .box-course:hover {
   border:2px solid $social-color;
+  img {
+    opacity: 0.3;
+  }
+
 }
 
 .box-course .box-content-course .tag-title {
@@ -561,10 +568,17 @@ body {
 
 .btn-custom {
     border: 1px solid $social-color;
-    color: $font-color;
-    background-color: $social-color;
+    color: $social-color;
+    background-color: $primary-color;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 15px;
 }
-
+.btn-custom:hover {
+  //opacity: 0.7;
+  background: $social-color;
+  color: $primary-color;
+}
 //for card in projects section
 
 .card {
@@ -572,29 +586,42 @@ body {
     max-width: 400px;
     margin: auto;
     text-align: justify;
+    //border: 3px solid black;
 }
 
 .card .title {
     color: $font-color;
     font-size: 20px;
     padding: 15px;
+    //border: 3px solid red;
 }
 .card .body  {
-  font-size: 16px;
+  font-size: 15px;
   padding: 15px;
   padding-top: 0px;
+  padding-bottom: 0px;
+  //border: 3px solid green;
 }
-.card button {
-    border: none;
+.card .button {
+  margin: 0 auto;
+  margin-top: 0px;
+  width: 65%;
+  //border: 3px solid green;
+  padding: auto;
+}
+.card .button button{
+    border-radius: 8px;
     outline: 0;
+    border: 1px solid $social-color;
     display: inline-block;
     padding: 8px;
-    color: white;
-    background-color: #000;
+    color: $social-color;
+    background-color: $primary-color;
     text-align: center;
     cursor: pointer;
-    width: 30%;
-    font-size: 18px;
+    width: auto;
+    font-size: 15px;
+    margin: 0 auto;
 }
 
 .card a {
@@ -603,6 +630,15 @@ body {
     color: black;
 }
 
-button:hover, a:hover {
-    opacity: 0.7;
+.card button:hover {
+    //opacity: 0.7;
+    background: $social-buttons-color;
+    color: black;
+}
+.card .card-footer {
+  margin-top: 15px;
+  border-top: 1px solid grey;
+  font-size: 18px;
+  padding: 15px;
+  color: grey;
 }
