@@ -205,27 +205,18 @@ keybase-in-footer: False
 # Projects List #
 ##################
 project_list:
-  - title: "Scene classification in visual data"
-    description: "Scene understanding is one of the critical milestones of computer vision, allowing the definition and classification of the context from images, as a foundation for further object recognition within the context. So for this motivation, I took part in the scene classification competition track which was organized by Ai challenger and required to develop new algorithms and models that improve the state-of-the-art in visual scene understanding. The task requires assigning labels to images indicating different scenes and places."
+  - title: "Scene Classification in Visual data"
+    description: "Scene understanding is one of the critical milestones of computer vision. I took part in the scene classification competition where I implemented CNN model to recognize images on large scale scene data of 80 classes."
     image: "/img/projects/scene-class.png"
     tools: "tenserflow, python"
-    url: "https://www.coursera.org/account/accomplishments/verify/MKPQWTR3E82Z"
-  - title: "Scene classification in visual data"
-    description: "Scene understanding is one of the critical milestones of computer vision, allowing the definition and classification of the context from images, as a foundation for further object recognition within the context. So for this motivation, I took part in the scene classification competition track which was organized by Ai challenger and required to develop new algorithms and models that improve the state-of-the-art in visual scene understanding. The task requires assigning labels to images indicating different scenes and places."
-    image: "/img/projects/scene-class.png"
-    tools: "tenserflow, python"
-    url: "https://www.coursera.org/account/accomplishments/verify/MKPQWTR3E82Z"
-  - title: "Scene classification in visual data"
-    description: "Scene understanding is one of the critical milestones of computer vision, allowing the definition and classification of the context from images, as a foundation for further object recognition within the context. So for this motivation, I took part in the scene classification competition track which was organized by Ai challenger and required to develop new algorithms and models that improve the state-of-the-art in visual scene understanding. The task requires assigning labels to images indicating different scenes and places."
-    image: "/img/projects/scene-class.png"
-    tools: "tenserflow, python"
-    url: "https://www.coursera.org/account/accomplishments/verify/MKPQWTR3E82Z"
-  - title: "Project2"
-    url: "https://github.com/wasifferoze"
-  - title: "Project3"
-    url: "https://github.com/wasifferoze"
-  - title: "Project4"
-    url: "https://github.com/wasifferoze"
+    url1: "https://github.com/wasifferoze/Scene-Classification/blob/master/README.md"
+    url2: "https://github.com/wasifferoze/Scene-Classification"
+  - title: "StudentOS"
+    description: "This project (SOS) is a mini operating system that mainly demonstrates the creation and management of processes in an operating system. It visualizes and demonstrates the working of these CPU scheduling algorithms to a better understanding for students: FCFS, SPN, SRT, HRRN and RR Algorithm."
+    image: "/img/projects/os.png"
+    tools: "C#, operating system"
+    url1: "#"
+    url2: "https://github.com/wasifferoze/StudentOS"
 
 ##################
 # certificate List #
@@ -247,9 +238,7 @@ certificate_list:
   - title: "Machine Learning"
     image: "/img/certificate/ml.PNG"
     url: "https://www.coursera.org/account/accomplishments/certificate/NNQ29ZEXTXLQ"
-  - title: "Machine Learning"
-    image: "/img/certificate/ml.PNG"
-    url: "https://www.coursera.org/account/accomplishments/certificate/NNQ29ZEXTXLQ"
+
 
 ################################################################################
 
