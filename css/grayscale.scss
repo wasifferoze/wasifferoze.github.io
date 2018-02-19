@@ -496,23 +496,19 @@ body {
 /* style for learning Footprint also*/
 
 .box-course {
-  //background: transparent;
   transition:all 0.2s ease;
   border-top: 2px solid grey;
   max-width: auto;
-  height: auto;
-  margin-top: 10px;
+  //height: auto;
+  margin: 15px;
   box-sizing: border-box;
   border-radius: 5px;
   background-clip: padding-box;
-  //margin: 0 auto;
-  //min-width: 400px;
-  //min-height:340px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .box-course:hover {
-  border:2px solid $social-color;
+  border:1px solid $social-color;
   img {
     opacity: 0.3;
   }
@@ -528,7 +524,7 @@ body {
 }
 
 .box-course .box-content-course {
-  padding: 1px;
+  //padding: 1px;
   border-radius: 0 0 2px 2px;
   background-clip: padding-box;
   box-sizing: border-box;
@@ -584,7 +580,7 @@ body {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 400px;
-    margin: auto;
+    margin: 15px;
     text-align: justify;
     //border: 3px solid black;
 }
@@ -609,7 +605,7 @@ body {
   //border: 3px solid green;
   padding: auto;
 }
-.card .button button{
+.card .button a {
     border-radius: 8px;
     outline: 0;
     border: 1px solid $social-color;
@@ -624,13 +620,8 @@ body {
     margin: 0 auto;
 }
 
-.card a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-}
 
-.card button:hover {
+.card a:hover {
     //opacity: 0.7;
     background: $social-buttons-color;
     color: black;

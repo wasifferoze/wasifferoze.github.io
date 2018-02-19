@@ -210,6 +210,16 @@ project_list:
     image: "/img/projects/scene-class.png"
     tools: "tenserflow, python"
     url: "https://www.coursera.org/account/accomplishments/verify/MKPQWTR3E82Z"
+  - title: "Scene classification in visual data"
+    description: "Scene understanding is one of the critical milestones of computer vision, allowing the definition and classification of the context from images, as a foundation for further object recognition within the context. So for this motivation, I took part in the scene classification competition track which was organized by Ai challenger and required to develop new algorithms and models that improve the state-of-the-art in visual scene understanding. The task requires assigning labels to images indicating different scenes and places."
+    image: "/img/projects/scene-class.png"
+    tools: "tenserflow, python"
+    url: "https://www.coursera.org/account/accomplishments/verify/MKPQWTR3E82Z"
+  - title: "Scene classification in visual data"
+    description: "Scene understanding is one of the critical milestones of computer vision, allowing the definition and classification of the context from images, as a foundation for further object recognition within the context. So for this motivation, I took part in the scene classification competition track which was organized by Ai challenger and required to develop new algorithms and models that improve the state-of-the-art in visual scene understanding. The task requires assigning labels to images indicating different scenes and places."
+    image: "/img/projects/scene-class.png"
+    tools: "tenserflow, python"
+    url: "https://www.coursera.org/account/accomplishments/verify/MKPQWTR3E82Z"
   - title: "Project2"
     url: "https://github.com/wasifferoze"
   - title: "Project3"
@@ -223,7 +233,7 @@ project_list:
 certificate_list:
   - title: "Convolutional Neural Networks"
     description: "Convolutional Neural Networks by deeplearning.ai on Coursera. Certificate earned at Thursday, December 21, 2017 5:13 PM GMT"
-    image: "/img/certificate/cnn.png"
+    image: "/img/certificate/conv.PNG"
     url: "https://www.coursera.org/account/accomplishments/verify/MKPQWTR3E82Z"
   - title: "Improving Deep Neural Networks"
     image: "/img/certificate/improve nn.PNG"
@@ -231,9 +241,12 @@ certificate_list:
   - title: "Structuring ML Projects"
     image: "/img/certificate/stru ml proji.PNG"
     url: "https://www.coursera.org/account/accomplishments/certificate/DVR82YLH62XS"
-  - title: "Neural Networks and Deep Learning"
+  - title: "Neural Networks & Deep Learning"
     image: "/img/certificate/nn and dl.PNG"
     url: "https://www.coursera.org/account/accomplishments/certificate/XQ9MQY3UQ666"
+  - title: "Machine Learning"
+    image: "/img/certificate/ml.PNG"
+    url: "https://www.coursera.org/account/accomplishments/certificate/NNQ29ZEXTXLQ"
   - title: "Machine Learning"
     image: "/img/certificate/ml.PNG"
     url: "https://www.coursera.org/account/accomplishments/certificate/NNQ29ZEXTXLQ"
@@ -248,7 +261,7 @@ pages_list:
   About: 'about'
   #Research: 'research'
   Projects: 'projects'
-  Blog: 'latest-post'
+  #Blog: 'latest-post'
   Certificates: 'footprint'
   #Resume: 'cv'
   #Timeline: 'timeline'
