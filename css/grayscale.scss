@@ -579,16 +579,19 @@ body {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 400px;
+    max-width: 450px;
     margin: auto;
     text-align: justify;
     //border: 3px solid black;
 }
-
+.card .card-img img {
+  height: 300px;
+}
 .card .title {
     color: $font-color;
     font-size: 20px;
     padding: 15px;
+    height: 50px;
     //border: 3px solid red;
 }
 .card .body  {
@@ -596,14 +599,16 @@ body {
   padding: 15px;
   padding-top: 0px;
   padding-bottom: 0px;
+  height: 250px;
   //border: 3px solid green;
 }
 .card .button {
   margin: 0 auto;
-  margin-top: 0px;
+  margin-top: 50px;
   width: 65%;
   //border: 3px solid green;
   padding: auto;
+  //height: 150px;
 }
 .card .button a {
     border-radius: 8px;
