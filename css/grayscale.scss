@@ -51,6 +51,7 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    text-align: justify;
     @media(min-width:768px) {
         margin: 0 0 35px;
         font-size: 20px;
@@ -516,7 +517,7 @@ body {
 }
 
 .box-course .box-content-course .tag-title {
-    color: #fff;
+    color: $font-color;
     font-size: 20px;
     font-weight: 300;
     text-transform: capitalize;
