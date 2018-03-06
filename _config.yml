@@ -206,15 +206,15 @@ keybase-in-footer: False
 ##################
 project_list:
   - title: "Scene Classification in Visual data"
-    description: "Scene understanding is one of the critical milestones of computer vision. I took part in the scene classification competition where I implemented CNN model to recognize images on large scale scene data of 80 classes."
+    description: "Scene understanding is one of the critical milestones of computer vision. I took part in the scene classification competition where I implemented CNN model to recognize images on large scale scene data of 80 classes. For better result, I used fine tuning technique."
     image: "/img/projects/scene-class.png"
-    tools: "tenserflow, python"
+    tools: "Tenserflow, Python"
     url1: "https://github.com/wasifferoze/Scene-Classification/blob/master/README.md"
     url2: "https://github.com/wasifferoze/Scene-Classification"
   - title: "StudentOS"
     description: "This project (SOS) is a mini operating system that mainly demonstrates the creation and management of processes in an operating system. It visualizes and demonstrates the working of these CPU scheduling algorithms to a better understanding for students: FCFS, SPN, SRT, HRRN and RR Algorithm."
     image: "/img/projects/os.png"
-    tools: "C#, operating system"
+    tools: "C#, Operating system algorithms"
     url1: "#"
     url2: "https://github.com/wasifferoze/StudentOS"
 
