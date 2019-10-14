@@ -62,7 +62,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "You always have a choice believe in yourself"
 
-me-img: "/img/author.jpg"
+#me-img: "/img/author.jpg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -70,7 +70,7 @@ me-img: "/img/author.jpg"
 # in the end of the url just before '&type' is your user id.
 # Note: fbid is not the same as user id and user id only contains numbers
 
-# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+me-img: "https://graph.facebook.com/wasif.feroze/picture?type=large&width=500&height=500"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -150,7 +150,7 @@ syntax-highlight: True
 # Contact #
 ###########
 
-email: "wasif_feroze@yahoo.com"
+email: "wasif.feroze@gmail.com"
 
 ################
 # Author Blurb #
